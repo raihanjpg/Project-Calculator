@@ -1,3 +1,4 @@
+// soal 1.a
 // buatkan nama variable dengan masing2 nama "bebas" 
 // dengan masing2 value tipe data: number, string, boolean, array, object, null, undefined
 // dan dikasih keterangan di masing2 variable
@@ -18,4 +19,24 @@ console.log("tipe data hanObjct : ", typeof hanObjct);
 console.log("tipe data hanNull :", typeof hanNull);
 console.log("tipe data hanUndefined : ", typeof hanUndefined);
 
+
+// soal 1.b 
+// berikan contoh cara memanggil value/nilai pada object
+// contoh object {age: 17, city: "bekasi"}
+// keluarkan/console.log value "bekasi"
+// output: bekasi
+
+
+
+// ===========================
+
+// soal 1.c
+// berikan contoh cara memanggil value/nilai pada array
+// contoh array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// keluarkan/console.log nilai 5 pada array tersebut
+// output: 5
+
+
+
+// ======================
 
