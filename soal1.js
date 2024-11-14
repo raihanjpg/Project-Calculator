@@ -26,6 +26,11 @@ console.log("tipe data hanUndefined : ", typeof hanUndefined);
 // keluarkan/console.log value "bekasi"
 // output: bekasi
 
+let han = {
+    age: 17,
+    city: "bekasi"
+};
+console.log("output :",han.city);
 
 
 // ===========================
@@ -36,6 +41,10 @@ console.log("tipe data hanUndefined : ", typeof hanUndefined);
 // keluarkan/console.log nilai 5 pada array tersebut
 // output: 5
 
+let rai = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+   
+console.log ("output :", 5)// percobaan pertama
+console.log("output :",rai [4]);// percobaan kedua
 
 
 // ======================
