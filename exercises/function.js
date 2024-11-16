@@ -4,10 +4,10 @@
 // (output: halo nama saya raihan)
  
 
-function sayHello(name){
-    return `Hello, perkenalkan nama saya ${name}`;
+function sayHello(nama){
+return `halo nama saya ${nama}`;
 };
-    console.log(sayHello("Rahman"));
+    console.log(sayHello("Raihan"));
 
 
 
