@@ -49,3 +49,4 @@ console.log("output :",rai [4]);// percobaan kedua
 
 // ======================
 
+
