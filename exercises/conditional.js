@@ -15,3 +15,14 @@
 
 
 // ===========
+
+
+// soal 3
+// buatlah sebuah function dan berikan 1 parameter input
+// di dalam function berikan sebuah kondisi untuk mengecek type data
+
+// jika parameter input itu, type datanya string maka 
+// outputnya adalah: parameter input = {value} adalah sebuah string
+
+// jika tidak tampilkan type data parameter tersebut, maka
+// outputnya adalah: parameter input = {value} bukan string tetapi {tipe data input}
