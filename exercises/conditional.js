@@ -36,3 +36,31 @@ perbandingan(5, 17);
 
 
 // ===========
+
+
+// soal 3
+// buatlah sebuah function dan berikan 1 parameter input
+// di dalam function berikan sebuah kondisi untuk mengecek type data
+
+// jika parameter input itu, type datanya string maka 
+// outputnya adalah: parameter input = {input} adalah sebuah string
+
+// jika tidak tampilkan type data parameter tersebut, maka
+// outputnya adalah: parameter input = {input} bukan string tetapi {tipe data input}
+
+
+function typeData(input){
+    console.log(typeof input)
+    if (typeof input === "string") {
+        let output  = " parameter input =" + input + "adalah sebuah string"
+        console.log(output)
+    } else{
+        let output2 = "parameter input" + input + "bukan string tetapi" + input 
+        console.log(output2)
+    }
+}
+
+typeData(111111111)
+typeData
+
+
