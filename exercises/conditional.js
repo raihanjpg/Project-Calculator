@@ -5,6 +5,14 @@
 // jika tidak maka console.log("input 2 lebih besar dari input 1")
 
 
+let input1 = 1;
+let input2 = 2;
+
+if (input1 > input2 ) {
+    console.log("input 1 lebih besar dari input 2");
+} else {
+    console.log("input 2 lebih besar dari input 1");
+};
 // ==============
 
 // soal 2
@@ -12,6 +20,19 @@
 // lalu buatlah sebuah pengkondisian jika input1 lebih besar dari input2
 // maka console.log("input 1 lebih besar dari input 2")
 // jika tidak maka console.log("input 2 lebih besar dari input 1")
+
+
+function perbandingan (input1, input2){
+    if (input1 > input2){
+        console.log("input 1 lebih bsar dari input 2");
+    }else{
+        console.log("input 2 lebih besar dari input 1");
+    }
+}
+    
+perbandingan(17, 5);
+perbandingan(5, 17);
+
 
 
 // ===========
@@ -22,7 +43,23 @@
 // di dalam function berikan sebuah kondisi untuk mengecek type data
 
 // jika parameter input itu, type datanya string maka 
-// outputnya adalah: parameter input = {value} adalah sebuah string
+// outputnya adalah: parameter input = {input} adalah sebuah string
 
 // jika tidak tampilkan type data parameter tersebut, maka
-// outputnya adalah: parameter input = {value} bukan string tetapi {tipe data input}
+// outputnya adalah: parameter input = {input} bukan string tetapi {tipe data input}
+
+
+function typeData(input){
+    console.log(typeof input)
+    if (typeof input === "string") {
+        let output  = " parameter input =" + input + "adalah sebuah string"
+        console.log(output)
+    } else{
+        let output2 = "parameter input" + input + "bukan string tetapi" + input 
+        console.log(output2)
+    }
+}
+
+typeData(111111111)
+
+
