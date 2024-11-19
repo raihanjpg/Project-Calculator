@@ -61,6 +61,5 @@ function typeData(input){
 }
 
 typeData(111111111)
-typeData
 
 
